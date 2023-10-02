@@ -7,12 +7,13 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+options(width = 100)
 ```
 
 
 # Description
 
-This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables
+This famous ([Fisher’s](https://en.wikipedia.org/wiki/Ronald_Fisher) or [Anderson’s](https://en.wikipedia.org/wiki/Edgar_Anderson)) iris data set gives the measurements in centimeters of the variables
 sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris.
 The species are *Iris setosa*, *versicolor*, and *virginica*.
 
